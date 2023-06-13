@@ -22,3 +22,18 @@ h1#one{
 h2{
     color: rgb(41, 100, 80);
 }
+
+.basico{
+ color: yellow;
+}
+
+.intermediario{
+    color: rgb(255, 98, 41);
+}
+
+.avancado{
+    color: red;
+}
+.destaque{
+    background-color: rgb(56, 41, 24);
+}
