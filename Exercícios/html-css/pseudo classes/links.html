@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+           color: black;
+           text-decoration: none;
+           font-weight: bold;
+        }
+        a:visited{
+            color: green;
+        }
+        a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        a:active{
+            color: blue;
+        }
+        a::after{
+            content: " [link]";
+            text-decoration: none;
+            color: blueviolet;
+            font-weight: normal;
+        }
+        .importante::before{
+            content: "--> ";
+            color: brown;
+            text-decoration: none;
+            font-weight:normal ;
+        }
+        .importante{
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <h1>Links personalizados</h1>
+    <ul>
+        <li><a href="https://github.com/Mayanzx" target="_blank" class="importante">GitHub</a></li>
+        <li><a href="https://www.tiktok.com/@clipandoqsmp" target="_blank">TikTok</a></li>
+        <li><a href="https://www.twitch.tv/cellbit" target="_blank">Twitch</a></li>
+    </ul>
+</body>
+</html>
