@@ -13,6 +13,7 @@
             border: 5px solid purple;
             width: 400px;
             border-collapse: collapse;
+            height: 400px;
         }
 
         tr{
@@ -25,9 +26,14 @@
         td{
             border: 1px solid black;
             padding: 5px;
+            text-align: center;
+            vertical-align: top;
         }
         td.especial{
             background-color: brown;
+        }
+        td.direita{
+            text-align: right;
         }
 
 
@@ -52,10 +58,10 @@
         <tr class="teste">
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="direita">C2</td>
         </tr>
         <tr>
-            <td>A3</td>
+            <td class="direita">A3</td>
             <td>B3</td>
             <td class="especial">C3</td>
         </tr>
@@ -66,8 +72,8 @@
         </tr>
         <tr>
             <td>A5</td>
-            <td>B5</td>
-            <td>C5</td>
+            <td class="especial">B5</td>
+            <td class="direita">C5</td>
         </tr>
     </table>
     
