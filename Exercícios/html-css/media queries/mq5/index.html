@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusantium laboriosam illo, soluta sunt iure fugiat beatae ea sit laborum veritatis sequi dicta sapiente deserunt consectetur quis ad aperiam temporibus.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quos velit magnam iure molestiae eveniet, possimus voluptatum praesentium beatae, temporibus odit nesciunt quisquam sapiente dolor illo quidem? Quae, ipsam tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim iure amet delectus non totam! Praesentium hic reprehenderit quisquam deleniti, soluta ea fugit omnis et rem, officia consequuntur dolores iusto fuga.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic provident expedita saepe debitis eveniet eaque beatae veritatis alias sunt, voluptate excepturi quisquam, fugiat ipsa, nemo doloribus quasi minima repellendus vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, itaque! Maxime, ducimus incidunt nisi alias, animi adipisci architecto minima nemo quaerat tenetur sed officia, ab sequi! Delectus magnam deserunt veritatis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. At eius accusamus facilis sit rem aut veniam in. Et ducimus numquam error minus aliquam dolorum natus. Asperiores provident quia magni similique.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            var itens = document.getElementById("itens");
+            if (itens.style.display == "block"){
+                itens.style.display = "none";
+            } 
+            else{
+                itens.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
